@@ -26,4 +26,7 @@ while (true) {
   const definition = prompt(`Okay, what is the definition of ${newWord}? `);
 
   // add the new word and its definition to the dictionary!
+  dictionary[newWord] = definition;
+  prompt('\nPress Enter to continue')
+  console.clear();
 }
